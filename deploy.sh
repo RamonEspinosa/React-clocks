@@ -6,13 +6,7 @@ set -e
 # build
 npm run build
 
-# navigate into the build output directory
-cd dist
+git add dist -f
+git commit -m 'Deploy to GH pages'
 
-git init
-git add -A
-git commit -m 'deploy'
-
-git push -f git@github.com:RamonEspinosa/React-clocks.git main:gh-pages
-
-cd -
+git subtree push --prefix dist origin gh-pages
