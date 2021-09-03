@@ -1,6 +1,6 @@
 # React clocks
 
-A repo with a series of react clocks. Made with React, Vite and Dayjs.
+A repo with a series of react clocks. Made with React, Vite and Dayjs. To watch them, [click here](https://ramonespinosa.github.io/React-clocks/)
 
 ## Installation
 
