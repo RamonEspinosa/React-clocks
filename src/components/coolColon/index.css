@@ -1,0 +1,8 @@
+.cool-colon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(var(--cool-size) / 2);
+  font-weight: 600;
+  color: var(--white);
+}
