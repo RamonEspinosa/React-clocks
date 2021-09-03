@@ -4,6 +4,6 @@ import reactRefresh from "@vitejs/plugin-react-refresh";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/react-clocks/",
+  base: "/React-clocks/",
   plugins: [reactRefresh()],
 });
